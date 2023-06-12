@@ -6,8 +6,10 @@
 
 .navbar{
     background-color: #244de2;
+    min-height: 65px;
 }
 
-a{
-    font-family: 'Hind', sans-serif;
+.titles{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
 }

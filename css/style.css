@@ -13,3 +13,7 @@
     font-family: 'Work Sans', sans-serif;
     color: white;
 }
+
+.li:hover {
+    background-color: rgb(33, 61, 151);
+}

@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Header *************************************************************************************/
 .navbar{
     background-color: #244de2;
     min-height: 65px;
@@ -16,4 +16,25 @@
 
 .li:hover {
     background-color: rgb(33, 61, 151);
+}
+/* Main ****************************************************************************************/
+main{
+background-image: url(../assets/fondo-texturado.png);
+background-position: center;
+background-size: contain;
+height: 100vh;
+width: 100%;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e52a47;
+    font-size: 110px;
+    height: 108px;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(33, 61, 151);
+    font-size: 24px;
 }

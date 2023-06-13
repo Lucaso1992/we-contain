@@ -5,28 +5,27 @@
 }
 /* Header *************************************************************************************/
 .navbar{
-    background-color: #244de2;
-    min-height: 65px;
+    background-color: #014BAE;
 }
 
 .titles{
     font-family: 'Work Sans', sans-serif;
-    color: white;
+    color: #FDFAEC;
 }
 
 .li:hover {
-    background-color: rgb(33, 61, 151);
+    background-color: #0A3977;
 }
 /* Main ****************************************************************************************/
 main{
-background-image: url(../assets/fondo-texturado.png);
+background-color: #FDFAEC;
 background-position: center;
 background-size: contain;
 height: 100vh;
 width: 100%;
 }
 
-h1{
+h1{     
     font-family: 'Bebas Neue', sans-serif;
     color: #e52a47;
     font-size: 110px;

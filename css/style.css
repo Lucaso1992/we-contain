@@ -42,6 +42,12 @@ h2 {
   font-family: "Bebas Neue", sans-serif;
   color: #004aad;
   font-size: 18px;
+  margin-top: 1rem;
+}
+
+.storage {
+  width: 260px;
+  height: 197px;
 }
 
 /*# sourceMappingURL=style.css.map */

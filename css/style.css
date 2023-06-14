@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+footer {
+  background-color: #004aad;
+}
+
+.bi {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
 .navbar {
   background-color: #004aad;
 }

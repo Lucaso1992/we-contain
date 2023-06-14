@@ -1,46 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/* Header *************************************************************************************/
-.navbar{
-    background-color: #004aad;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.titles{
-    font-family: 'Work Sans', sans-serif;
-    color: #F9F4DC;
+.navbar {
+  background-color: #004aad;
+}
+
+.titles {
+  font-family: "Work Sans", sans-serif;
+  color: #F9F4DC;
 }
 
 .titles:hover {
-    color: #B8BCC1;
-    font-weight: bolder;
+  color: #B8BCC1;
+  font-weight: bolder;
 }
 
-.logo{
-    width: 70px;
-    height: 65px;
-    }
-
-/* Main ****************************************************************************************/
-main{
-background-color: #FFFAE3;
-background-position: center;
-background-size: contain;
-height: 100vh;
-width: 100%;
+.logo {
+  width: 70px;
+  height: 65px;
 }
 
-h1{     
-    font-family: 'Bebas Neue', sans-serif;
-    color: #CD3A3A;
-    font-size: 110px;
-    height: 108px;
+main {
+  background-color: #FFFAE3;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
 }
 
-h2{
-    font-family: 'Bebas Neue', sans-serif;
-    color: #004aad;
-    font-size: 24px;
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #CD3A3A;
+  font-size: 110px;
+  height: 108px;
 }
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #004aad;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

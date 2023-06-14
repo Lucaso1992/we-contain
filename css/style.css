@@ -14,8 +14,7 @@
 }
 
 .titles:hover {
-  color: #A7B2C0;
-  font-weight: bolder;
+  color: #8793A4;
   transition: all 0.5s ease-in-out;
 }
 
@@ -33,14 +32,13 @@ main {
 }
 
 h1 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "DM Serif Display", serif;
   color: #BB2D2D;
-  font-size: 70px;
-  height: 66px;
+  font-size: 60px;
 }
 
 h2 {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "DM Serif Display", serif;
   color: #004aad;
   font-size: 18px;
   margin-top: 1rem;

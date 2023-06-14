@@ -1,35 +1,34 @@
-
-main{
+main {
     background-color: #FFFAE1;
     background-position: center;
     background-size: contain;
     height: 100vh;
     width: 100%;
-    }
-    
+}
 
-h1{     
+
+h1 {
     font-family: 'Bebas Neue', sans-serif;
-        color: #BB2D2D;
-        font-size: 60px;
-        margin-bottom: 0px;
-       
-    }
-    
+    color: #BB2D2D;
+    font-size: 60px;
+    margin-bottom: 0px;
 
-h2{
+}
+
+
+h2 {
     font-family: 'Bebas Neue', sans-serif;
-        color: #004aad;
-        font-size: 18px;
-        
-    }
+    color: #004aad;
+    font-size: 18px;
 
-.storage{
+}
+
+.storage {
     width: 260px;
     height: 197px;
 }
 
-.image-front{
+.image-front {
     width: 100%;
     height: 400px;
     background-position: center;
@@ -37,6 +36,25 @@ h2{
 
 }
 
-.first-card{
+.first-card {
     font-family: 'Work Sans', sans-serif;
 }
+
+.arrow {
+    height: 100px;
+    width: 100px;
+    margin-top: 3rem;
+}
+
+
+.floating { 
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out; 
+    }
+    @keyframes floating {
+        0% { transform: translate(0,  0px); }
+        50%  { transform: translate(0, 15px); }
+        100%   { transform: translate(0, -0px); }   
+    }

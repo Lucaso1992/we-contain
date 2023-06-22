@@ -35,6 +35,10 @@ footer {
   height: 65px;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 main {
   background-color: #FFFAE1;
   background-position: center;

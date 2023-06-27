@@ -18,7 +18,11 @@
     height: 65px;
     }
 
+.li{
+    border-bottom: 0.2rem solid transparent;
+}
+
     .li:hover{
-        transition-duration: 0.5s;
-        border-bottom: 0.125rem solid white;
+        transition-duration: 0.9s;
+        border-bottom: 0.2rem solid white;
     }

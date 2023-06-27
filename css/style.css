@@ -29,13 +29,17 @@ footer {
 }
 
 .titles:hover {
-  color: #8793A4;
-  transition: all 0.5s ease-in-out;
+  color: white;
 }
 
 .logo {
   width: 70px;
   height: 65px;
+}
+
+.li:hover {
+  transition-duration: 0.5s;
+  border-bottom: 0.125rem solid white;
 }
 
 :root {

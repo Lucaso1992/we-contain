@@ -176,8 +176,8 @@ h5 {
 }
 
 @media (min-width: 1024px) {
-  h1 {
-    font-size: 90px;
+  #home {
+    font-size: 80px;
   }
 }
 @media (min-width: 768px) {

@@ -250,6 +250,10 @@ h5 {
     left: -100%;
   }
 }
+.mini-box {
+  font-family: "Work Sans", sans-serif;
+}
+
 @media (min-width: 1024px) {
   #home {
     font-size: 80px;

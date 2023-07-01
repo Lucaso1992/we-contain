@@ -154,10 +154,12 @@ h5 {
 .cardies {
   border: transparent;
   background-color: #dfdfdf;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.311);
 }
 
 .carousel {
   margin-top: 1rem;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.311);
 }
 
 .carousel-inner {
@@ -188,6 +190,10 @@ h5 {
 
 .bg-3 {
   background-image: url(../assets/img/carrusel-3.png);
+}
+
+.lined {
+  border-bottom: 0.125rem solid #020279;
 }
 
 @media (min-width: 1024px) {

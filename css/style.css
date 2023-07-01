@@ -131,6 +131,10 @@ h5 {
   height: 248px;
 }
 
+.dead-one {
+  display: none;
+}
+
 .sobre-nos {
   display: flex;
   justify-content: center;
@@ -258,6 +262,9 @@ h5 {
 @media (min-width: 1024px) {
   #home {
     font-size: 80px;
+  }
+  .dead-one {
+    display: block;
   }
 }
 @media (min-width: 768px) {

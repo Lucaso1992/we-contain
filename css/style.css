@@ -120,34 +120,6 @@ h5 {
   font-family: "Work Sans", sans-serif;
 }
 
-.arrow {
-  height: 100px;
-  width: 100px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.floating {
-  animation-name: floating;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  width: 40px;
-  height: 56px;
-  margin-bottom: 3rem;
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 15px);
-  }
-  100% {
-    transform: translate(0, 0px);
-  }
-}
 .logo-instagram,
 .li-instagram {
   color: #004aad;
@@ -178,7 +150,11 @@ h5 {
 
 .cardies {
   border: transparent;
-  background-color: #f9f9f9;
+  background-color: #dfdfdf;
+}
+
+.carousel {
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -188,14 +164,14 @@ h5 {
 }
 @media (min-width: 768px) {
   h1 {
-    font-size: 80px;
-    height: 95px;
+    font-size: 70px;
+    height: 85px;
   }
   h2 {
     font-size: 22px;
   }
   .cardies {
-    width: 768px;
+    width: 100%;
   }
 }
 

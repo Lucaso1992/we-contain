@@ -161,7 +161,7 @@ h5 {
 
 .carousel {
   margin-top: 1rem;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.311);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.699);
 }
 
 .carousel-inner {
@@ -196,6 +196,7 @@ h5 {
 
 .lined {
   border-bottom: 0.125rem solid #020279;
+  margin-top: 4rem;
 }
 
 .box {

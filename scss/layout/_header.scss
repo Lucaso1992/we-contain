@@ -16,13 +16,14 @@
 .logo{
     width: 70px;
     height: 65px;
-    }
+    } 
 
 .li{
     border-bottom: 0.2rem solid transparent;
 }
 
-    .li:hover{
+.li:hover{
         transition-duration: 0.9s;
         border-bottom: 0.2rem solid white;
-    }
+}
+

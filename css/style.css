@@ -201,6 +201,10 @@ h5 {
   margin-top: 4rem;
 }
 
+.bi {
+  color: #020279;
+}
+
 @media (min-width: 1024px) {
   #home {
     font-size: 80px;

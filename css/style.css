@@ -161,6 +161,7 @@ h5 {
   background-color: rgba(249, 244, 220, 0.4274509804);
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.215);
   height: auto;
+  padding: 0px;
 }
 
 .carousel {
@@ -216,6 +217,9 @@ h5 {
   }
   h2 {
     font-size: 22px;
+  }
+  .dead-one {
+    display: none;
   }
 }
 

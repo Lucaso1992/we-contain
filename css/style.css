@@ -97,8 +97,9 @@ h1 {
 
 h2 {
   font-family: "Bebas Neue", sans-serif;
-  color: #939191;
+  color: #7e7c7c;
   font-size: 18px;
+  margin-top: 0.5rem;
 }
 
 h5 {
@@ -201,10 +202,26 @@ h5 {
   margin-top: 4rem;
 }
 
-.bi {
-  color: #020279;
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 1.8rem;
 }
 
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
 @media (min-width: 1024px) {
   #home {
     font-size: 80px;

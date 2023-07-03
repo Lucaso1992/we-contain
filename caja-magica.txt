@@ -1,0 +1,70 @@
+ANIMACION WE CONTAIN - CONTENEDOR ROJO GIRANDO
+
+HTML
+
+   <div class="box align-self-end col-md-12 col-sm-12">
+                    <div class="inner">
+                        <span class="mini-box">we-contain</span>
+                    </div>
+                    <div class="inner">
+                        <span class="mini-box">we-contain</span>
+                    </div>
+                </div>
+
+
+CSS 
+
+
+
+.box {
+	display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+}
+
+.box .inner {
+	width: 100%;
+	height: auto;
+	line-height: 100px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.438);
+}
+
+.box .inner:first-child {
+	background-color: indianred;
+	color: darkred;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: lightcoral;
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}

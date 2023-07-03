@@ -158,14 +158,15 @@ h5 {
 
 .cardies {
   border: transparent;
-  background-color: #dfdfdf;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.311);
+  background-color: rgba(249, 244, 220, 0.4274509804);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.215);
   height: auto;
 }
 
 .carousel {
   margin-top: 1rem;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.699);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.253);
+  border-radius: 6px;
 }
 
 .carousel-inner {
@@ -179,11 +180,8 @@ h5 {
 }
 
 .mask {
-  padding: 3rem;
   height: 100%;
-  background-color: rgba(249, 249, 249, 0.297);
-  display: flex;
-  align-items: center;
+  background-color: rgba(249, 249, 249, 0.235);
 }
 
 .bg-1 {
@@ -201,62 +199,6 @@ h5 {
 .lined {
   border-bottom: 0.125rem solid #020279;
   margin-top: 4rem;
-}
-
-.box {
-  display: flex;
-  margin-top: 5rem;
-  margin-bottom: 3.5rem;
-  width: 300px;
-  height: 100px;
-}
-
-.box .inner {
-  width: 100%;
-  height: auto;
-  line-height: 100px;
-  font-size: 2em;
-  font-family: sans-serif;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.562);
-}
-
-.box .inner:first-child {
-  background-color: indianred;
-  color: darkred;
-  transform-origin: right;
-  transform: perspective(100px) rotateY(-15deg);
-}
-
-.box .inner:last-child {
-  background-color: lightcoral;
-  color: antiquewhite;
-  transform-origin: left;
-  transform: perspective(100px) rotateY(15deg);
-}
-
-.box .inner span {
-  position: absolute;
-  animation: marquee 5s linear infinite;
-}
-
-.box .inner:first-child span {
-  animation-delay: 2.5s;
-  left: -100%;
-}
-
-@keyframes marquee {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -100%;
-  }
-}
-.mini-box {
-  font-family: "Work Sans", sans-serif;
 }
 
 @media (min-width: 1024px) {

@@ -165,12 +165,7 @@ h5 {
 
 .carousel {
   margin-top: 1rem;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.253);
-  border-radius: 2px;
-}
-
-.carousel-inner {
-  border-radius: 2px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.174);
 }
 
 .carousel-item {
@@ -199,6 +194,7 @@ h5 {
 .lined {
   border-bottom: 0.125rem solid #020279;
   margin-top: 4rem;
+  text-align: center;
 }
 
 .floating {
@@ -220,14 +216,14 @@ h5 {
     transform: translate(0, 0px);
   }
 }
-@media (min-width: 1024px) {
-  #home {
-    font-size: 80px;
-  }
-  .dead-one {
-    display: block;
-  }
+.about-us {
+  border-radius: 0px;
+  border: transparent;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.174);
+  width: 70%;
+  margin-bottom: 5rem;
 }
+
 @media (min-width: 768px) {
   h1 {
     font-size: 70px;
@@ -235,6 +231,21 @@ h5 {
   }
   h2 {
     font-size: 22px;
+  }
+  .about-us {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  #home {
+    font-size: 80px;
+  }
+  .about-us {
+    width: 70%;
+  }
+  .lined {
+    text-align: start;
+    text-indent: 5.6rem;
   }
 }
 

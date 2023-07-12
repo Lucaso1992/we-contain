@@ -38,6 +38,11 @@ footer {
   margin-bottom: 1rem;
 }
 
+.g-map {
+  width: 180px;
+  height: 180px;
+}
+
 .navbar {
   background-color: #020279;
   width: 100%;

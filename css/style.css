@@ -43,6 +43,11 @@ footer {
   height: 180px;
 }
 
+#contacto {
+  border-bottom: 0.125rem solid #f8f8f8;
+  padding-bottom: 1rem;
+}
+
 .navbar {
   background-color: #020279;
   width: 100%;
